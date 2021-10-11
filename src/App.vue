@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
-import { useStore } from './store'
+import { useStore } from './store/main'
 
 export default defineComponent({
   setup () {
